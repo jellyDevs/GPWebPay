@@ -98,6 +98,7 @@ class GPWebPayControl extends UI\Control
     
     /**
      * @throws GPWebPayException
+     * @crossOrigin
      */
     public function handleSuccess(): void
     {
