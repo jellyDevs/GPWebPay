@@ -81,7 +81,7 @@ class GPWebPayExtension extends Nette\DI\CompilerExtension
 
         $builder->addDefinition($this->prefix('provider'))
                 ->setFactory(
-                    Provider::class,
+                    Provider::class
                 )
                 ->setArguments([
                     $this->prefix('@settings'),
